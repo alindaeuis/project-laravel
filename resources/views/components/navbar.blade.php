@@ -1,12 +1,12 @@
-<nav x-data="{ isOpen: false }" class="bg-gray-800">
+<nav x-data="{ isOpen: false }" class="bg-primary fixed w-full z-20 top-0 start-0 " id="navbar" onscroll="changeBackground()">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="flex h-16 items-center justify-between">
-      <div class="flex items-center">
+    <div class="h-14 mt-5">
+      <div class="flex justify-between">
         <div class="flex-shrink-0">
           <h2 class="text-md text-2xl text-white font-extrabold">A L I N D A .</h2>
         </div>
         <div class="hidden md:block">
-          <div class="ml-10 flex items-baseline space-x-4">
+          <div class="ml-10 flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="#home" class="rounded-md px-3 hover:bg-gray-700 py-2 text-sm font-medium text-white" aria-current="page">Home</a>
             <a href="#about" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>

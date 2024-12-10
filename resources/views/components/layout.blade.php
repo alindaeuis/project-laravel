@@ -37,6 +37,8 @@
   <x-footer></x-footer>
 </div>
 
+{{-- js --}}
+<script src="../public/js/script.js"></script>
 {{-- flowbite --}}
 <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
